@@ -1,0 +1,87 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: content-box;
+	font-size: 14px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a span {
+	color: #1278F3;
+	position: relative;
+	top: -4px;
+	margin-left: 5px;
+}
+
+section.wrapper-insta {
+	text-align: center;
+}
+
+div.bloc-insta {
+	display: inline-block;
+	text-align: center;
+	margin: 20px;
+}
+
+div.bloc-insta div.sign {
+	padding: 20px 30px;
+	border: solid 1px #ccc;
+	margin-top: 20px;
+}
+
+div.bloc-insta div.sign .logo-insta {
+	width: 60px;
+	margin-bottom: 15px;
+	height: auto;
+}
+
+div.bloc-insta div.sign li {
+	list-style: none;
+	margin: 10px 0;
+}
+
+div.bloc-insta div.sign input[type='text'] {
+	padding: 10px;
+	width: 280px;
+	border: 0.5px solid #ccc;
+	border-radius: 5px;
+}
+
+div.bloc-insta div.sign input[type='button'] {
+	width: 280px;
+	padding: 10px;
+	color: white;
+	background-color: #0095F6;
+	border: none;
+	border-radius: 10px;
+}
+
+div.bloc-insta div.sign .logo-face {
+	width: 20px;
+	height: auto;
+}
+
+div.sign p {
+	margin-top: 15px;
+}
+
+div.bloc-insta div.sign .link {
+	color: #0095F6;
+}
+
+div.bloc-insta div.install {
+	margin-top: 20px;
+}
+
+div.bloc-insta div.stores {
+	margin-top: 15px;
+}
+
+div.bloc-insta div.stores .button-install {
+	width: 150px;
+	height: auto;
+}
